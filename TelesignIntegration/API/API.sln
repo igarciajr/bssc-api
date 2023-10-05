@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSB.Common", "..\..\CSSB.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelesignIntegration", "..\TelesignIntegration\TelesignIntegration\TelesignIntegration.csproj", "{79F8C860-8C4F-4A9B-8E81-9AFAD873EA57}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CFA031A-A8CA-415C-BAC5-FBB3EAA6755E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

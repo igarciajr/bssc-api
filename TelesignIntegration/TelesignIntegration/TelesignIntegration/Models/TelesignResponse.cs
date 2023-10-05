@@ -16,7 +16,7 @@ namespace TelesignIntegration.Models
 
         public HttpResponseHeaders Headers { get; set; }
 
-        public string Body { get; set; }
+        public TelesignResponseBody Body { get; set; }
 
         public JObject Json { get; set; }
 

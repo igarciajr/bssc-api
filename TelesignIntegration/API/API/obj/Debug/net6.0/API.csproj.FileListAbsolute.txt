@@ -40,3 +40,4 @@ C:\dev\CSSB\TelesignIntegration\API\API\bin\Debug\net6.0\TelesignIntegration.pdb
 C:\dev\CSSB\TelesignIntegration\API\API\bin\Debug\net6.0\Telesign.pdb
 C:\dev\CSSB\TelesignIntegration\API\API\bin\Debug\net6.0\Telesign.xml
 C:\dev\CSSB\TelesignIntegration\API\API\bin\Debug\net6.0\TelesignEnterprise.pdb
+C:\dev\CSSB\TelesignIntegration\API\API\bin\Debug\net6.0\AutoMapper.dll

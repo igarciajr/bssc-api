@@ -1,20 +1,32 @@
 ﻿using API.Interfaces;
 using API.Models.Telesign;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using TelesignIntegration.Models;
 
 namespace API.Services
 {
     public class Telesign: ITelesign
     {
-        public TelesignResponseDto SendVerificationCode(string phoneNumber, VerificationMethod method) {
+        public async Task<SendCodeResponseDto> SendVerificationCode(string phoneNumber, VerificationMethod method) {
             TelesignIntegration.Verify verify = new TelesignIntegration.Verify();
-            var x = verify.SendVerificationCode(phoneNumber, 0);
-            return new TelesignResponseDto()
+            var res = await verify.SendVerificationCode(phoneNumber, (int)method);
+
+            return new SendCodeResponseDto()
             {
-                OK = x.OK,
-                Body = x.Body,
-                Headers = x.Headers,
-                Json = x.Json,
-                StatusCode = x.StatusCode
+                ReferenceId = res.Body.ReferenceId,
+                OK = res.OK,
+                StatusCode = res.StatusCode            
+            };
+        }
+
+        public async Task<VerifyCodeResponseDto> VerifyCode(string referenceId, string code)
+        {
+            TelesignIntegration.Verify verify = new TelesignIntegration.Verify();
+            var res = await verify.VerifyCode(referenceId, code);
+            return new VerifyCodeResponseDto()
+            {
+                VerifyCodeState = (string?)res.Json.SelectToken("$.verify.code_state")
             };
         }
     }

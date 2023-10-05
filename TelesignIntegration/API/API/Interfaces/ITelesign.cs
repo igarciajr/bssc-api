@@ -1,10 +1,10 @@
 ﻿using API.Models.Telesign;
-using CSSB.Common;
 
 namespace API.Interfaces
 {
     public interface ITelesign
     {
-        public TelesignResponseDto SendVerificationCode(string phoneNumber, VerificationMethod method);
+        public Task<SendCodeResponseDto> SendVerificationCode(string phoneNumber, VerificationMethod method);
+        public Task<VerifyCodeResponseDto> VerifyCode(string referenceId, string code);
     }
 }

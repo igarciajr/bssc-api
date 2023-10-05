@@ -19,10 +19,22 @@ namespace API.Controllers
             _configuration = configuration;
         }
 
-        [HttpPost("sendSmsVerificationCode/{phoneNumber}")]
-        public ActionResult<TelesignResponseDto> SendVerificationcode(string phoneNumber)
+        [HttpPost("sms/{phoneNumber}")]
+        public async Task<ActionResult<SendCodeResponseDto>> SendVerificationCodeViaSms(string phoneNumber)
         {
-            return _telesignService.SendVerificationCode(phoneNumber, VerificationMethod.Sms);
+            return await _telesignService.SendVerificationCode(phoneNumber, VerificationMethod.Sms);
+        }
+
+        [HttpPost("call/{phoneNumber}")]
+        public async Task<ActionResult<SendCodeResponseDto>> SendVerificationCodeViaCall(string phoneNumber)
+        {
+            return await _telesignService.SendVerificationCode(phoneNumber, VerificationMethod.Voice);
+        }
+
+        [HttpGet("verify/{referenceId}/{code}")]
+        public async Task<ActionResult<VerifyCodeResponseDto>> VerifyCode(string referenceId, string code)
+        {
+            return await _telesignService.VerifyCode(referenceId, code);
         }
     }
 }
