@@ -1,0 +1,11 @@
+C:\dev\CSSB\CSSB.Common\bin\Debug\net6.0\CSSB.Common.deps.json
+C:\dev\CSSB\CSSB.Common\bin\Debug\net6.0\CSSB.Common.dll
+C:\dev\CSSB\CSSB.Common\bin\Debug\net6.0\CSSB.Common.pdb
+C:\dev\CSSB\CSSB.Common\obj\Debug\net6.0\CSSB.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\CSSB\CSSB.Common\obj\Debug\net6.0\CSSB.Common.AssemblyInfoInputs.cache
+C:\dev\CSSB\CSSB.Common\obj\Debug\net6.0\CSSB.Common.AssemblyInfo.cs
+C:\dev\CSSB\CSSB.Common\obj\Debug\net6.0\CSSB.Common.csproj.CoreCompileInputs.cache
+C:\dev\CSSB\CSSB.Common\obj\Debug\net6.0\CSSB.Common.dll
+C:\dev\CSSB\CSSB.Common\obj\Debug\net6.0\refint\CSSB.Common.dll
+C:\dev\CSSB\CSSB.Common\obj\Debug\net6.0\CSSB.Common.pdb
+C:\dev\CSSB\CSSB.Common\obj\Debug\net6.0\ref\CSSB.Common.dll

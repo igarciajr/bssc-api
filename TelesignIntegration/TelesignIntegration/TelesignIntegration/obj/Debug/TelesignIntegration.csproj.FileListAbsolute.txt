@@ -1,0 +1,14 @@
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\bin\Debug\TelesignIntegration.dll
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\bin\Debug\TelesignIntegration.pdb
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\bin\Debug\Newtonsoft.Json.dll
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\bin\Debug\Telesign.dll
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\bin\Debug\TelesignEnterprise.dll
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\bin\Debug\Newtonsoft.Json.xml
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\bin\Debug\Telesign.pdb
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\bin\Debug\Telesign.xml
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\bin\Debug\TelesignEnterprise.pdb
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\obj\Debug\TelesignIntegration.csproj.AssemblyReference.cache
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\obj\Debug\TelesignIntegration.csproj.CoreCompileInputs.cache
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\obj\Debug\TelesignIntegration.csproj.CopyComplete
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\obj\Debug\TelesignIntegration.dll
+C:\dev\CSSB\TelesignIntegration\TelesignIntegration\TelesignIntegration\obj\Debug\TelesignIntegration.pdb

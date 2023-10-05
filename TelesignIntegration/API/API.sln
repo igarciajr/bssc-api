@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{D5E7349C-C045-45BA-9F53-A254013A4C8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSB.Common", "..\..\CSSB.Common\CSSB.Common.csproj", "{67688240-207F-43BD-960D-9FFD3AEA0752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelesignIntegration", "..\TelesignIntegration\TelesignIntegration\TelesignIntegration.csproj", "{79F8C860-8C4F-4A9B-8E81-9AFAD873EA57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5E7349C-C045-45BA-9F53-A254013A4C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E7349C-C045-45BA-9F53-A254013A4C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E7349C-C045-45BA-9F53-A254013A4C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E7349C-C045-45BA-9F53-A254013A4C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67688240-207F-43BD-960D-9FFD3AEA0752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67688240-207F-43BD-960D-9FFD3AEA0752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67688240-207F-43BD-960D-9FFD3AEA0752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67688240-207F-43BD-960D-9FFD3AEA0752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F8C860-8C4F-4A9B-8E81-9AFAD873EA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F8C860-8C4F-4A9B-8E81-9AFAD873EA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F8C860-8C4F-4A9B-8E81-9AFAD873EA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F8C860-8C4F-4A9B-8E81-9AFAD873EA57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3877524D-95C6-4624-A908-88606437FBE2}
+	EndGlobalSection
+EndGlobal
